@@ -23,7 +23,7 @@ board:
   vendor: STMicroelectronics
   version: 1.0.0
 chip:
-  chip_name: STM32F469NIH6U
+  chip_name: STM32F469NI
   clock_source: HSE
   device_vendor: STMicroelectronics
   family_name: STM32
