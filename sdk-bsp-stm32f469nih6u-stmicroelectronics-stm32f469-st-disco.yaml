@@ -1,0 +1,120 @@
+board:
+  buy_url_cn: https://www.st.com/content/st_com/zh/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-discovery-kits/32f469idiscovery.html#sample-buy
+  buy_url_global: https://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-discovery-kits/32f469idiscovery.html#sample-buy
+  debug_interface: SWD
+  debugger: ST-LINK
+  description_en: The STM32F469 Discovery kit (32F469IDISCOVERY) allows users to easily
+    develop applications with the STM32F469 high-performance MCUs with ARM®Cortex®-M4
+    core and Chrom-ART Accelerator™. The discovery kit enables a wide range of use
+    cases taking advantage of premium graphics, audio, multi-sensor support, WVGA
+    color display, security, memory extension and connectivity features. An embedded
+    ST-LINK/V2-1 debugger/programmer is included; specialized add-on boards can be
+    connected thanks to the Arduino™ UNO or to the expansion connectors.
+  description_zh: STM32F469-ST-DISCO 是 ST 推出的一款基于 ARM Cortex-M4 内核的开发板，最高主频为 180Mhz，该开发板具有丰富的板载资源，可以充分发挥
+    STM32F469 的芯片性能。
+  emulator_machine: ''
+  large_image: documents/images/board.png
+  name: STM32F469-ST-DISCO
+  price_cn: 486 CNY
+  price_global: 75.23 USD
+  sale_contact_cn: https://www.st.com/content/st_com/zh/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-discovery-kits/32f469idiscovery.html
+  sale_contact_global: https://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-discovery-kits/32f469idiscovery.html
+  small_image: documents/images/board_small.png
+  vendor: STMicroelectronics
+  version: 1.0.0
+chip:
+  chip_name: STM32F469NIH6U
+  clock_source: HSE
+  device_vendor: STMicroelectronics
+  family_name: STM32
+  rx_name: PA10
+  series_name: STM32F4
+  source_freq: '8000000'
+  sub_series_name: STM32F469
+  target_freq: '240000000'
+  tx_name: PA9
+  uart_name: UART1
+docs:
+- category: manual
+  file: documents/dm00218846-discovery-kit-with-stm32f469ni-mcu-stmicroelectronics.pdf
+  title: dm00218846-discovery-kit-with-stm32f469ni-mcu-stmicroelectronics
+example_projects: []
+features:
+- 'MCU: STM32F469NIH6U, main frequency 180MHz, 2048KB Flash, 384KB (including 64KB
+  CCM) RAM'
+- 'External RAM: Model 25Q128A, 16MB'
+- 'External Flash: Model 7LL12D9NOR, 16MB'
+- 'LED: 4 PCS, LD1 (green, PG6), LD2 (orange, PD4), LD3 (red, PD5), LD4 (blue, PK3)'
+- 'Keys: 1, User (with wake-up function, PA0)'
+- 'LCD: 4-inch 800×480TFT screen'
+- 'Audio: SAI Audio DAC'
+features_zh:
+- MCU：STM32F469NIH6U，主频 180MHz，2048KB FLASH ，384KB (包含64KB 的 CCM) RAM
+- 外部 RAM：型号25Q128A，16MB
+- 外部 FLASH：型号7LL12D9NOR，16MB
+- LED：4个，LD1（绿色，PG6），LD2（橙色，PD4），LD3（红色，PD5），LD4（蓝色，PK3）
+- 按键：1个，USER（兼具唤醒功能，PA0）
+- LCD：4寸800×480TFT屏
+- 音频：SAI音频DAC
+pkg_type: Board_Support_Packages
+pkg_vendor: RealThread
+pkg_version: 1.0.0
+template_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .cproject
+    - .gitignore
+    - .project
+    - .settings
+    - applications
+    - board
+    - build
+    - cconfig.h
+    - figures
+    - Kconfig
+    - libraries
+    - makefile.targets
+    - project.ewd
+    - project.ewp
+    - project.eww
+    - project.uvopt
+    - project.uvoptx
+    - project.uvproj
+    - project.uvprojx
+    - README.md
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig.pyc
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    - template.ewp
+    - template.eww
+    - template.uvopt
+    - template.uvoptx
+    - template.uvproj
+    - template.uvprojx
+    source_path_offset: project_0
+    target_path_offset: ''
+  external_files:
+  - files_and_folders:
+    - components
+    - include
+    - libcpu/arm
+    - libcpu/Kconfig
+    - libcpu/SConscript
+    - src
+    - tools
+    - Kconfig
+    - LICENSE
+    package_name: RT-Thread
+    package_type: RT-Thread_Source_Code
+    package_vendor: ''
+    package_version: latest
+    source_path_offset: rt-thread
+    target_path_offset: rt-thread
+  project_description: ''
+  project_name: STM32F469-ST-DISCO
+  project_type: rt-thread|@full|@latest
+yaml_version: 3
