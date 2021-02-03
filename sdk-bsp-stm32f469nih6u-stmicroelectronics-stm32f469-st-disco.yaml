@@ -69,7 +69,6 @@ template_projects:
     - .settings
     - applications
     - board
-    - build
     - cconfig.h
     - figures
     - Kconfig
