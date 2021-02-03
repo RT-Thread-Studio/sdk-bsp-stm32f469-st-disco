@@ -74,6 +74,9 @@ template_projects:
     - figures
     - Kconfig
     - libraries
+    - README.md
+    - rtconfig.h
+    - rtconfig.py
     - makefile.targets
     - project.ewd
     - project.ewp
